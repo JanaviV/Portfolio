@@ -1,0 +1,6 @@
+.certifications ul li {
+    padding: 10px;
+    background: rgba(100, 255, 218, 0.2);
+    margin-bottom: 8px;
+    border-radius: 5px;
+}

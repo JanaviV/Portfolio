@@ -1,0 +1,6 @@
+.projects ul li {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
