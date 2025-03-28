@@ -1,33 +1,29 @@
-import Header from './components/Header.jsx';
-import About from './components/About';
-import Projects from './components/Projects.jsx';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import React from "react";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import About from "./components/About.jsx";
+import Education from "./components/Education.jsx";
+import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Certifications from "./components/Certifications.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
+import "./styles/global.css";
 
-
-function App() {
+const App = () => {
     return (
-        <div>
-            {/*<Header />
+        <div className="portfolio-container">
+            <Header />
+            <Hero />
             <About />
+            <Education />
+            <Skills />
             <Projects />
+            <Certifications />
             <Contact />
-            <Footer />*/}
-            <div>
-                <Header />
-                <div id="about">
-                    <About />
-                </div>
-                <div id="projects">
-                    <Projects />
-                </div>
-                <div id="contact">
-                    <Contact />
-                </div>
-                <Footer />
-            </div>
+            <Footer />
         </div>
     );
-}
+};
 
 export default App;
